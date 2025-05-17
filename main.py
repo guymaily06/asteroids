@@ -11,7 +11,7 @@ def main():
     print (f"Screen height: {SCREEN_HEIGHT}")
     screen = pygame.display.set_mode ((SCREEN_WIDTH, SCREEN_HEIGHT))
     while x == 0 :
-        fill("black", rect = None, special_flags = 0)
+        pygame.Surface.fill (screen, "black")
         pygame.display.flip ()
 
 if __name__ == "__main__":
