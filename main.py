@@ -7,7 +7,7 @@ from constants import *
 def main():
     pygame.init()
     screen = pygame.display.set_mode ((SCREEN_WIDTH, SCREEN_HEIGHT))
-    Clock = pygame.time.clock()
+    clock = pygame.time.clock()
     dt = 0
     
     while True:
