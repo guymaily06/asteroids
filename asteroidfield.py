@@ -4,7 +4,7 @@ from asteroid import Asteroid
 from constants import *
 
 
-class AsteroidField (pygame.sprite.SPrite):
+class AsteroidField (pygame.sprite.Sprite):
     edges = [
         [
             pygame.Vector2(1, 0),
