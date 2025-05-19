@@ -26,7 +26,6 @@ class AsteroidField (pygame.sprite.SPrite):
                 x * SCREEN_WIDTH, SCREEN_HEIGHT + ASTEROID_MAX_RADIUS
             ),
         ],
-    ],
     ]
 
     def __init__(self):
